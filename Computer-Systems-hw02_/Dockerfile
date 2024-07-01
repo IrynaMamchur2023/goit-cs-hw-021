@@ -1,5 +1,5 @@
 # Використовуємо базовий образ Python
-FROM python:3.8-slim
+FROM python:3.12-slim
 
 # Встановлюємо залежності за допомогою pip
 COPY requirements.txt /app/requirements.txt
